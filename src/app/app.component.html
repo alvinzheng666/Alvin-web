@@ -1,15 +1,19 @@
 <!--The content below is only a placeholder and can be replaced.-->
 <mat-toolbar>
   <div class="container">
-    {{title}}
+    <div class="row">
+      <div class="col-auto mr-auto">
+        {{title}}
+      </div>
+      <div class="col-auto">
+        <button mat-button>Home</button>
+        <button mat-button>Research</button>
+        <button mat-button>Teaching</button>
+        <button mat-button>Service</button>
+        <button mat-button>Press</button>
+      </div>
+    </div>
   </div>
 </mat-toolbar>
-<div class="container">
-  <mat-tab-group>
-    <mat-tab label="First"> Content 1</mat-tab>
-    <mat-tab label="Second"> Content 2</mat-tab>
-    <mat-tab label="Third"> Content 3</mat-tab>
-  </mat-tab-group>
-</div>
 
 <router-outlet></router-outlet>
