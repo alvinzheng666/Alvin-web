@@ -7,3 +7,10 @@
 @import '~bootstrap/scss/utilities';
 @import '~bootstrap/scss/images';
 @import '~@angular/material/prebuilt-themes/indigo-pink.css';
+
+.global-page-title {
+  height: 60px;
+  margin: 0;
+  line-height: 60px;
+  vertical-align: center;
+}
