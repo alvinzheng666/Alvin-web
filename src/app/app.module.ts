@@ -9,9 +9,13 @@ import {
   MatTabsModule,
   MatToolbarModule
 } from '@angular/material';
+import { BioComponent } from './bio/bio.component';
+import { ResearchComponent } from './research/research.component';
+import { TeachingComponent } from './teaching/teaching.component';
+import { CvComponent } from './cv/cv.component';
 
 @NgModule({
-  declarations: [AppComponent],
+  declarations: [AppComponent, BioComponent, ResearchComponent, TeachingComponent, CvComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,

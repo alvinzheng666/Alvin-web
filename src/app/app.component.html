@@ -6,14 +6,15 @@
         {{title}}
       </div>
       <div class="col-auto">
-        <button mat-button>Home</button>
-        <button mat-button>Research</button>
-        <button mat-button>Teaching</button>
-        <button mat-button>Service</button>
-        <button mat-button>Press</button>
+        <a routerLink="/" mat-button>Bio</a>
+        <a routerLink="/research" mat-button>Research</a>
+        <a routerLink="/teaching" mat-button>Teaching</a>
+        <a routerLink="/cv" mat-button>CV</a>
       </div>
     </div>
   </div>
 </mat-toolbar>
 
-<router-outlet></router-outlet>
+<div class="container">
+  <router-outlet></router-outlet>
+</div>
