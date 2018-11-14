@@ -13,16 +13,24 @@ import { BioComponent } from './bio/bio.component';
 import { ResearchComponent } from './research/research.component';
 import { TeachingComponent } from './teaching/teaching.component';
 import { CvComponent } from './cv/cv.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
-  declarations: [AppComponent, BioComponent, ResearchComponent, TeachingComponent, CvComponent],
+  declarations: [
+    AppComponent,
+    BioComponent,
+    ResearchComponent,
+    TeachingComponent,
+    CvComponent
+  ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     MatTabsModule,
     MatToolbarModule,
-    MatButtonModule
+    MatButtonModule,
+    FontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]

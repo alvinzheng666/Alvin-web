@@ -6,7 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./bio.component.scss']
 })
 export class BioComponent implements OnInit {
-  myEmail: string = '';
+  myEmail = '';
+
   constructor() {}
 
   ngOnInit() {
